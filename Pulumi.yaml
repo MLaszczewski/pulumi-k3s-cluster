@@ -1,0 +1,3 @@
+name: pulumi-k3s-cluster
+description: Minimal k3s cluster configuration with basic services
+runtime: nodejs

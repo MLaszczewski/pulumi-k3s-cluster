@@ -1,0 +1,20 @@
+{
+  "name": "pulumi-k3s-cluster",
+  "private": true,
+  "license": "BSD-3-Clause",
+  "description": "Minimal k3s cluster configuration with basic services",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^14.18.35"
+  },
+  "dependencies": {
+    "@pulumi/command": "^0.5.2",
+    "@pulumi/kubernetes": "^3.0.0",
+    "@pulumi/kubernetesx": "^0.1.5",
+    "@pulumi/postgresql": "^3.6.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/random": "^4.8.2",
+    "dotenv": "^16.0.2",
+    "js-base64": "^3.7.2"
+  }
+}
